@@ -1,0 +1,45 @@
+
+
+table, tr, td {
+    width: 75%;
+    border: white 2px ridge;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    border-right: black ridge;
+    border-bottom: black ridge;
+}
+
+td {
+    width: 25%;
+}
+
+#c1 {
+    background-color: limegreen;
+}
+
+#c2 {
+    background-color: lightseagreen;
+    text-align: left;
+}
+
+#c3 {
+    color: red;
+}
+
+#c5 {
+    color: red;
+}
+
+#c6 {
+    background-color: magenta;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+#c8 {
+    color: red;
+}
+
