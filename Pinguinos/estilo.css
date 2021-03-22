@@ -1,0 +1,36 @@
+body {
+    background-image: url(Pingüinos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 90%;
+    background-position: center center;
+}
+
+table {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px groove;
+    text-align: center;
+    width: 40%;
+}
+
+tr, th, td {
+    border: black 1px groove;
+}
+
+table {
+    background-color: lightyellow;
+    border-bottom-color: black;
+    border-right-color: black;
+}
+
+#fila1 {
+    background-color: white;
+}
+
+#fila2 {
+    background-color: rgb(247, 247, 133);
+}

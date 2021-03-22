@@ -1,0 +1,28 @@
+table {
+    width: 75%;
+}
+
+table, th, td {
+    border: rgb(26, 125, 238) 2px solid;
+    border-collapse: collapse;
+    border-style: outset;
+    border-width: 5px;
+}
+
+th {
+    width: 25%;
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+tr:nth-child(even) {
+    background-color: lightgreen;
+}
+
+tr:nth-child(odd) {
+    background-color: lightseagreen;
+}
+
+.precio {
+    text-align: center;
+}
